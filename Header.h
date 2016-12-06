@@ -8,7 +8,7 @@ const int OPP_ATK = 5,
 		  OPP_SPD = 5,
           OPP_HP = 20;
 
-//Function prototypes; Functions' codes below main function
+//Function prototypes
 void tryAgain(int * hero);
 void statBoost(int * stat, char boost[10], char name[20]);
 void damage(int * dmg, int stat, int adv_def, int * health, char mover[20]);
